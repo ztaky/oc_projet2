@@ -1,0 +1,41 @@
+.html, body
+{
+margin:0;
+padding:0;
+}
+
+.container 
+{
+display: flex;
+}
+
+.gauche
+{
+    background-color: #FECA07;
+    width: 20%;
+    padding: 30px;
+}
+
+.droite
+{
+    background-color: white;
+    width: 80%;
+    padding: 30px;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+h3
+{
+color: #FECA07;
+background-color: #404040;
+width: 100%;
+text-align: center; 
+}
