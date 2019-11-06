@@ -37,6 +37,18 @@
 
 }
 
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('fonts/BonvenoCF-Light-webfont.eot');
+    src: url('fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BonvenoCF-Light-webfont.woff2') format('woff2'),
+         url('fonts/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('fonts/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 .html, body
 {
@@ -61,6 +73,8 @@ display: flex;
     background-color: white;
     width: 70%;
     padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 30px;
 }
 
 img
@@ -68,6 +82,8 @@ img
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
     width: 50%;
     border-radius: 50%;
 }
@@ -78,16 +94,19 @@ color: #FECA07;
 background-color: #404040;
 width: 100%;
 text-align: center;
-padding-top: 5px;
-padding-bottom: 5px; 
-font-family: 'aaarghnormal';
+margin-top: 30px;
+margin-bottom: 30px;
+font-family: 'bonvenocflight';
 }
 
 h1
 {
 	font-family:'aaarghnormal';
 	color: #404040;
-	font-size: 40px
+	font-size: 4em;
+	padding: 0px;
+	margin: 0px;
+
 }
 
 .jaune
@@ -100,34 +119,41 @@ h1
 h2
 {
 	font-size: 20px;
-	font-family: 'aaarghnormal';
+	font-family: 'Arial';
 	color: #404040;
+
 }
 
 h4
 {
-padding-top: 5px;
-padding-bottom: 5px;
+padding-top: 15px;
+padding-bottom: 15px;
 padding-left: 50px;
 padding-right: 20px;
-font-family: 'aaarghnormal';
+font-family: 'Arial';
 font-size: 1em;
 color: #404040;
-font-weight: none;
+font-weight: lighter;
 justify-content: all;
+line-height: 30px;
 }
 
 a
 {
-font-family: 'aaarghnormal';
+font-family: 'Arial';
 color: #404040;
 text-decoration: none;
 }
 
 h5
 {
-	font-family: 'aaarghnormal';
+	font-family: 'Arial';
 	font-size : 1.5em;
+	padding-top: 50px;
+	border-bottom: 2px solid #FECA07;
+	border-width: 80%;
+	padding-bottom: 10px;
+	
 }
 
 h6
@@ -136,11 +162,96 @@ h6
 	font-size: 1em;
 }
 
-i
+i.fas
 {
-	size: 1em;
-	color: #FECA07 ;
+	border: 2px solid #404040;
+	font-size: 3em;
+	color: #404040;
+	border-radius: 50%;
+	padding: 10px ;
+	margin-left: 45px;
+	margin-top: 30px;
+	
 }
+
+.fas,.far
+{
+	color: #FECA07 ;
+	padding-right: 25px;
+}
+
+.inside
+{
+	display: flex;
+}
+
+.dates
+{
+width: 30%;
+}
+
+.descriptif
+{
+width: 70%;
+padding-right: 30px;
+}
+
+.date
+{
+	font-family:'Arial';
+	font-size: 1.2em;
+	color: #404040 ;
+	margin-bottom: 0px;
+}
+
+.ville
+{
+	font-family:'Arial';
+	font-size: 1.2em;
+	color: #404040 ;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}
+
+.lieu
+{
+	font-family:'Arial';
+	font-size: 1.2em;
+	color: #404040 ;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+
+.intitule
+{
+	font-family:'Arial';
+	font-size: 1em;
+	color: #404040 ;
+	margin-bottom: 0px;
+}
+
+
+
+
+.details
+{
+	font-family: 'Arial';
+	font-size: 1em;
+	color: #404040;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.espace
+{
+	margin-bottom: 100px;
+}
+
+
+
+
 
 
 
