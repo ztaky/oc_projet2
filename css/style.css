@@ -230,7 +230,111 @@ padding-right: 30px;
 	padding-bottom: 10px;
 }
 
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1024px)
+{
+ 	img
+	{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 30%;
+    border-radius: 50%;
+	} 
 
+	h1
+	{
+	font-family:'aaarghnormal';
+	color: #404040;
+	font-size: 2em;
+	padding: 0px;
+	margin: 0px;
+	} 
+
+	h2
+	{
+	font-size: 14px;
+	font-family: 'Arial';
+	color: #404040;
+	}
+
+	.texte
+	{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Arial';
+	font-size: 0.7em;
+	color: #404040;
+	font-weight: lighter;
+	justify-content: all;
+	text-align: justify;
+	line-height: 20px;
+	}
+
+	.fas,.far
+	{
+	color: #FECA07 ;
+	padding-right: 15px;
+	}
+
+	.descriptif
+	{
+	width: 70%;
+	padding-right: 20px;
+	}
+
+	.date
+	{
+	font-family:'Arial';
+	font-size: 0.7em;
+	color: #404040 ;
+	margin-bottom: 0px;
+	}
+
+	.ville
+	{
+	font-family:'Arial';
+	font-size: 0.7em;
+	color: #404040 ;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	}
+
+	.lieu
+	{
+	font-family:'Arial';
+	font-size: 0.7em;
+	color: #404040 ;
+	font-weight: bold;
+	margin-bottom: 0px;
+	}
+
+
+	.intitule
+	{
+	font-family:'Arial';
+	font-size: 0.8em;
+	color: #404040 ;
+	margin-bottom: 0px;
+	}
+
+
+	.details
+	{
+	font-family: 'Arial';
+	font-size: 0.8em;
+	color: #404040;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	text-align: justify;
+	}
+
+}
 
 
 
