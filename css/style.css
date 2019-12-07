@@ -441,30 +441,23 @@ h2
 }
 }
 
-/* Large devices (desktops, less than 1200px)
-@media (max-width: 992px) 
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 992px)
 
 {
 
-	.souligne
-	{
-		border-bottom: none;
-	}
 
 	.droite
 	{
 		width: 65%;
-		padding-right: auto;
-		padding-left: auto;
-
 	}
 
 	.gauche
 
 	{
 		width: 35%;
-		padding-bottom: 30px;
 	}
+
 
 	.inside
 
@@ -528,41 +521,11 @@ h2
 	}
 
 	.fas,.far
-	{
-		color: #FECA07 ;
-		padding-right: 5px;
-		padding-left: auto;
-	}
-
-	i.fas
-	{
-		border: 2px solid #404040;
-		font-size: 3em;
-		color: #404040;
-		border-radius: 50%;
-		padding: 10px ;
-		margin-left: 30px;
-		margin-top: 30px;
-	
-	}
-
-	.texte
-	{
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 20px;
-	padding-right: 20px;
-	font-family: 'Arial';
-	font-size: 0.8em;
-	color: #404040;
-	font-weight: lighter;
-	text-align: justify;
-	line-height: 20px;
-	}
-
+{
+	color: #FECA07 ;
+	padding-right: 5px;
 }
-*/
-
+}
 
 
 
