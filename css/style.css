@@ -1,30 +1,4 @@
 @font-face {
-    font-family: 'aileronregular';
-    src: url('fonts/Aileron-Regular-webfont.eot');
-    src: url('fonts/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Aileron-Regular-webfont.woff2') format('woff2'),
-         url('fonts/Aileron-Regular-webfont.woff') format('woff'),
-         url('fonts/Aileron-Regular-webfont.ttf') format('truetype'),
-         url('fonts/Aileron-Regular-webfont.svg#aileronregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'amikoregular';
-    src: url('fonts/Amiko-Regular-webfont.eot');
-    src: url('fonts/Amiko-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Amiko-Regular-webfont.woff2') format('woff2'),
-         url('fonts/Amiko-Regular-webfont.woff') format('woff'),
-         url('fonts/Amiko-Regular-webfont.ttf') format('truetype'),
-         url('fonts/Amiko-Regular-webfont.svg#amikoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'aaarghnormal';
     src: url('fonts/Aaargh-webfont.eot');
     src: url('fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
@@ -123,7 +97,7 @@ h2
 	color: #404040;
 }
 
-h4
+.texte
 {
 padding-top: 15px;
 padding-bottom: 15px;
@@ -253,7 +227,6 @@ padding-right: 30px;
 	border-bottom: 2px solid #FECA07;
 	padding-bottom: 10px;
 }
-
 
 
 
