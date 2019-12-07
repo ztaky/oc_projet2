@@ -33,8 +33,6 @@ padding:0;
 .container 
 {
 display: flex;
-
-justify-content: space-around;
 }
 
 .gauche
@@ -159,7 +157,6 @@ i.fas
 .inside
 {
 	display: flex;
-	justify-content: space-around;
 	
 }
 
@@ -260,10 +257,9 @@ padding-right: 80px;
 
 	.droite
 	{
-		width: 80%;
-		padding-right: auto;
-		padding-left: auto;
-
+		width: 90%;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 
 	.gauche
@@ -277,7 +273,6 @@ padding-right: 80px;
 
 	{
 		display: flex;
-		
 		justify-content: space-around;
 	}
 
@@ -312,10 +307,9 @@ padding-right: 80px;
 
 	{
 		display: flex;
-		
+		justify-content: space-around;
 		flex-direction: column;
 		text-align: center;
-		justify-content: space-around;
 	}
 
 	.detailsr
@@ -338,11 +332,20 @@ padding-right: 80px;
 	.fas,.far
 {
 	color: #FECA07 ;
-	padding-right: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+h2
+{
+	font-size: 1.2em;
+	font-family: 'Arial';
+	color: #404040;
 }
 }
 
-/*Medium devices (tablets, 768px and up)*/
+/*Medium devices (tablets, 768px and up)
 @media (max-width: 768px) 
 
 {
@@ -359,9 +362,9 @@ padding-right: 80px;
 
 	.droite
 	{
-		width: 80%;
+		width: 100%;
 		padding-right: auto;
-		padding-left: auto;
+		padding-left: 10px;
 
 	}
 
@@ -377,7 +380,6 @@ padding-right: 80px;
 	{
 		display: flex;
 		
-		justify-content: space-around;
 	}
 
 	.ville
@@ -414,7 +416,7 @@ padding-right: 80px;
 		
 		flex-direction: column;
 		text-align: center;
-		justify-content: space-around;
+		
 	}
 
 	.detailsr
@@ -441,8 +443,8 @@ padding-right: 80px;
 }
 }
 
-
-/* Large devices (desktops, less than 1200px)*/
+*/
+/* Large devices (desktops, less than 1200px)
 @media (max-width: 992px) 
 
 {
@@ -508,7 +510,7 @@ padding-right: 80px;
 		
 		flex-direction: column;
 		text-align: center;
-		justify-content: space-around;
+		
 	}
 
 	.detailsr
@@ -562,6 +564,7 @@ padding-right: 80px;
 	}
 
 }
+*/
 
 
 
