@@ -363,6 +363,8 @@ h2
 	.droite
 	{
 		width: 90%;
+		padding-left: 30px;
+		padding-right: 30px;
 
 	}
 
@@ -377,6 +379,7 @@ h2
 
 	{
 		display: flex;
+		justify-content: space-around;
 		
 	}
 
@@ -411,9 +414,9 @@ h2
 
 	{
 		display: flex;
-		
 		flex-direction: column;
 		text-align: center;
+		justify-content: space-around;
 		
 	}
 
@@ -435,10 +438,20 @@ h2
 	}
 
 	.fas,.far
-{
+	{
 	color: #FECA07 ;
-	padding-right: 5px;
-}
+	padding-right: 10px;
+	padding-left: 10px;
+	}
+
+
+	h2
+	{
+	font-size: 1.2em;
+	font-family: 'Arial';
+	color: #404040;
+	}
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) 
@@ -495,7 +508,6 @@ h2
 
 	{
 		display: flex;
-		
 		flex-direction: column;
 		text-align: center;
 		
